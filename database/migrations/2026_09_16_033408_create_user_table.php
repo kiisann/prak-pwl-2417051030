@@ -15,7 +15,7 @@ return new class extends Migration
             $table->id();
             $table->string('nama');
             $table->string('npm');
-            $table->foreignkey('kelas_id')->constrained();
+            $table->foreignId('kelas_id')->constrained();
             $table->timestamps();
         });
     }
