@@ -9,7 +9,7 @@
             <input type="text" id="nama" name="nama"><br><br> 
 
             <label for="npm">NPM:</label><br> 
-            <input type="text" id="npm"name="npm"><br><br> 
+            <input type="text" id="npm" name="npm"><br><br> 
             
             <label for="kelas">Kelas:</label><br>
             <select name="kelas_id" id="kelas_id">
