@@ -4,7 +4,7 @@
 <div class="container">
     <h1>Buat Mata Kuliah Baru</h1>
 
-    <form action="{{ route('matakuliah.store') }}" method="POST">
+    <form action="{{ route('matakuliah.store') }}" method="POST">   
         @csrf
 
         <label for="nama_mk">Nama Mata Kuliah:</label><br>

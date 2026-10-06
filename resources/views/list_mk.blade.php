@@ -13,7 +13,7 @@
                 <th>SKS</th>
             </tr>
         </thead>
-        <tbody>
+        <tbody> 
             @foreach ($mks as $mk)
                 <tr>
                     <td>{{ $mk->id }}</td>

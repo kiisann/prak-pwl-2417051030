@@ -14,7 +14,7 @@ class MataKuliahController extends Controller
         ];
         return view('list_mk', $data);
     }
-
+    
     public function create() {
         return view('create_mk', ['title' => 'Create Mata Kuliah']);
     }
